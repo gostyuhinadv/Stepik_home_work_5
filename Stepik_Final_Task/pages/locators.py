@@ -14,6 +14,10 @@ class LoginPageLocators:
     USER_EMAIL = (By.CSS_SELECTOR, '[name="login-username"]')
     USER_PASSWORD = (By.CSS_SELECTOR, '[name="login-password"]')
     BUTTON_ENTER = (By.CSS_SELECTOR, '[name="login_submit"]')
+    NEW_USER_EMAIL = (By.CSS_SELECTOR, '[id="id_registration-email"]')
+    NEW_USER_PASS_1 = (By.CSS_SELECTOR, '[id="id_registration-password1"]')
+    NEW_USER_PASS_2 = (By.CSS_SELECTOR, '[id="id_registration-password2"]')
+    NEW_USER_BUTTON_REG = (By.CSS_SELECTOR, '[name="registration_submit"]')
 
 class BasketPageLocators:
     TITLE_BASKET = (By.CSS_SELECTOR, 'div.page-header h1')

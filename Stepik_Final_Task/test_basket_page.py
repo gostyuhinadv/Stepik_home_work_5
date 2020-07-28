@@ -10,7 +10,7 @@ def test_delete_item_from_basket_by_user(browser):
     link = "http://selenium1py.pythonanywhere.com/accounts/login/"
     page = LoginPage(browser, link)
     page.open()
-    page.enter_in_account()
+    page.enter_in_existing_account()
     page = MainPage(browser, browser.current_url)
     page.go_to_product_page_from_mine_page()
     page = ProductPage(browser, browser.current_url)
